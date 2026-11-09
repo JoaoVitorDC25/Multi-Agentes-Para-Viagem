@@ -1,0 +1,32 @@
+# Ambiente virtual
+.venv/
+venv/
+
+# Arquivos gerados pelo Python
+__pycache__/
+*.py[cod]
+
+# Credenciais e variáveis de ambiente
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# PDFs locais
+data/documentos/
+
+# Bancos vetoriais locais
+storage/
+chroma_db/
+
+# Logs
+*.log
+
+# Configurações pessoais dos editores
+.vscode/
+.idea/
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+Desktop.ini
